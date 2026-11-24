@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body class="m-0 p-0 box-border">
+
+    <!-- HEADER -->
+    <header class="w-full bg-blue-950 text-white">
+        <div class="h-[60px] flex justify-around items-center px-5">
+
+            <h1 class="text-2xl font-bold">E-commerce</h1>
+
+            <div class="flex items-center gap-8">
+                <ul class="hidden md:flex list-none gap-[30px]">
+                    <li>All category</li>
+                    <li>Gift cards</li>
+                    <li>Special event</li>
+                </ul>
+
+                <i class="fa-solid fa-bars text-xl md:hidden"></i>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTAINER -->
+    <section class="w-[95%] max-w-[1350px] mx-auto mt-[30px] mb-[10px]
+                    flex flex-col md:flex-row gap-[10px] h-auto md:h-[345px]">
+
+        <!-- LARGE IMAGE -->
+        <div class="flex-[3] min-w-0 h-[250px] md:h-full">
+            <img
+                src="https://i.pinimg.com/736x/8d/ed/27/8ded2785f3fa36ee4ea24332119b4dfc.jpg"
+                alt="Main fashion collection"
+                class="w-full h-full object-cover rounded-[20px]">
+        </div>
+
+        <!-- RIGHT IMAGES -->
+        <div class="flex-[1.15] flex flex-col gap-[10px] min-w-0 h-[350px] md:h-full">
+
+            <div class="flex-1 min-h-0">
+                <img
+                    src="https://i.pinimg.com/736x/01/5f/b7/015fb7c0d704d0a193e85114fcf4f20b.jpg"
+                    alt="Fashion collection"
+                    class="w-full h-full object-cover rounded-[20px]">
+            </div>
+
+            <div class="flex-1 min-h-0">
+                <img
+                    src="https://i.pinimg.com/736x/84/be/e0/84bee07336e6ea8027bd294dd5ec7fab.jpg"
+                    alt="Casual outfit"
+                    class="w-full h-full object-cover rounded-[20px]">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- BOTTOM SECTION -->
+    <section class="w-[95%] max-w-[1350px] mx-auto my-[30px]
+                    flex flex-col md:flex-row gap-[10px] md:h-[170px]">
+
+        <!-- TEXT -->
+        <div class="flex-[1.5] flex flex-col justify-center gap-3 min-w-0 py-4">
+
+            <h2 class="text-[28px] font-medium leading-tight">
+                Casual Inspirations
+            </h2>
+
+            <p class="text-xs text-gray-600 leading-relaxed max-w-[230px]">
+                Our favorite combinations for casual outfit that can inspire you to apply on your daily activity.
+            </p>
+
+            <button class="w-[160px] p-[10px] border border-black rounded-full
+                           bg-white text-[10px] uppercase cursor-pointer
+                           hover:bg-black hover:text-white transition">
+                Browse Inspirations
+            </button>
+
+        </div>
+
+        <!-- FIRST IMAGE -->
+        <div class="flex-[1.8] min-w-0 h-[200px] md:h-full">
+            <img
+                src="https://i.pinimg.com/736x/09/15/54/091554e529bad55281c0f86ad6565e4b.jpg"
+                alt="Casual inspiration"
+                class="w-full h-full object-cover rounded-[20px]">
+        </div>
+
+        <!-- SECOND IMAGE -->
+        <div class="flex-[1.8] min-w-0 h-[200px] md:h-full">
+            <img
+                src="https://i.pinimg.com/736x/9a/81/c8/9a81c8e3cff6008b22a329e9be5ea76e.jpg"
+                alt="Fashion inspiration"
+                class="w-full h-full object-cover rounded-[20px]">
+        </div>
+
+    </section>
+
+
+    <!-- TRENDING -->
+    <section class="w-[95%] max-w-[1350px] mx-auto mb-10">
+
+        <h2 class="text-base font-medium mb-[15px]">
+            Trending
+        </h2>
+
+        <!-- FIRST PRODUCT ROW -->
+        <div class="flex flex-col md:flex-row gap-[10px] mb-5">
+
+            <div class="flex-[1] min-w-0">
+                <img
+                    src="https://i.pinimg.com/1200x/e9/25/32/e9253268a45345bd0f7065b0a64266df.jpg"
+                    alt="Thin client"
+                    class="w-full h-[220px] md:h-[300px] object-cover rounded-[20px]">
+                <h3 class="text-xs font-medium mt-2">Thin Client</h3>
+                <p class="text-[11px] text-gray-600">$125</p>
+            </div>
+
+            <div class="flex-[1] min-w-0">
+                <img
+                    src="https://i.pinimg.com/736x/35/d7/45/35d7457263df6fc2132b9a4d656f0040.jpg"
+                    alt="VAT filing"
+                    class="w-full h-[220px] md:h-[300px] object-cover rounded-[20px]">
+                <h3 class="text-xs font-medium mt-2">VAT Filing</h3>
+                <p class="text-[11px] text-gray-600">$130</p>
+            </div>
+
+            <div class="flex-[2] min-w-0">
+                <img
+                    src="https://i.pinimg.com/736x/8d/96/74/8d9674f197e5a5e250b417e33ab67244.jpg"
+                    alt="Auditing Firm"
+                    class="w-full h-[220px] md:h-[300px] object-cover rounded-[20px]">
+                <h3 class="text-xs font-medium mt-2">Auditing Firm</h3>
+                <p class="text-[11px] text-gray-600">$125</p>
+            </div>
+
+        </div>
+
+
+        <!-- SECOND PRODUCT ROW -->
+        <div class="flex flex-col md:flex-row gap-[10px] mb-5">
+
+            <div class="flex-[2] min-w-0">
+                <img
+                    src="https://i.pinimg.com/736x/4a/cb/82/4acb821120bacaacf2f859768d1865ef.jpg"
+                    alt="Chapter 19"
+                    class="w-full h-[220px] md:h-[300px] object-cover rounded-[20px]">
+                <h3 class="text-xs font-medium mt-2">Chapter 19</h3>
+                <p class="text-[11px] text-gray-600">$135</p>
+            </div>
+
+            <div class="flex-[1] min-w-0">
+                <img
+                    src="https://i.pinimg.com/736x/e4/e9/50/e4e950554aadb7c778ed88cacf9ab387.jpg"
+                    alt="Establishment of mainland"
+                    class="w-full h-[220px] md:h-[300px] object-cover rounded-[20px]">
+                <h3 class="text-xs font-medium mt-2">Establishment of mainland</h3>
+                <p class="text-[11px] text-gray-600">$115</p>
+            </div>
+
+            <div class="flex-[1] min-w-0">
+                <img
+                    src="https://i.pinimg.com/736x/4e/5a/33/4e5a33bd869e00c3161d067fe5657dc8.jpg"
+                    alt="Calculate startup"
+                    class="w-full h-[220px] md:h-[300px] object-cover rounded-[20px]">
+                <h3 class="text-xs font-medium mt-2">Calculate Startup</h3>
+                <p class="text-[11px] text-gray-600">$145</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BANNER -->
+    <section class="w-[95%] max-w-[1350px] mx-auto mb-[60px]">
+
+        <img
+            src="https://i.pinimg.com/736x/b8/5e/3c/b85e3c7dfa0f65ba0cb0563e81dabea6.jpg"
+            alt="Woman in a hat smiling"
+            class="w-full h-[250px] md:h-[400px] object-cover rounded-[20px]">
+
+    </section>
+
+
+    <!-- WHY SHOP -->
+    <section class="w-[95%] max-w-[1350px] mx-auto mb-10">
+
+        <h2 class="text-[28px] md:text-[36px] font-normal leading-tight">
+            Why you'll love to<br>
+            shop on our website
+        </h2>
+
+    </section>
+
+
+    <!-- BLOG -->
+    <section class="w-[95%] max-w-[1350px] mx-auto mb-[60px]">
+
+        <p class="text-sm mb-[15px]">
+            From The Blog
+        </p>
+
+        <div class="flex flex-col md:flex-row items-center gap-10">
+
+            <img
+                src="https://i.pinimg.com/736x/5b/f0/ad/5bf0ad81540c7c091b4d7d58ad9aee62.jpg"
+                alt="Clothes on a rack"
+                class="w-full md:flex-1 min-w-0 h-[250px] md:h-[300px] object-cover rounded-[20px]">
+
+            <div class="flex-1 min-w-0">
+
+                <h3 class="text-[26px] md:text-[34px] font-normal leading-tight mb-[15px]">
+                    How to combine your daily outfit to looks fresh and cool.
+                </h3>
+
+                <p class="text-xs text-gray-600 leading-relaxed mb-5">
+                    Maybe you don't need to buy new clothes to have cool, cold, fresh looking style for everyday. Learn how to mix and match your existing pieces.
+                </p>
+
+                <button class="py-[10px] px-6 border border-black rounded-full
+                               bg-white text-[10px] uppercase cursor-pointer
+                               hover:bg-black hover:text-white transition">
+                    Read more
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-[#0a0a0a] text-white px-[5%] py-10
+                   flex flex-col md:flex-row justify-between gap-10">
+
+        <!-- FOOTER LEFT -->
+        <div>
+
+            <h3 class="text-sm mb-[10px]">
+                ECOMMERCE
+            </h3>
+
+            <p class="text-[11px] text-gray-400 mb-3">
+                Subscribe to our newsletter
+            </p>
+
+            <div class="flex gap-2">
+
+                <input
+                    type="email"
+                    placeholder="Your email address"
+                    class="py-2 px-3 rounded-full border border-gray-600
+                           bg-transparent text-white text-[11px]">
+
+                <button class="py-2 px-[18px] rounded-full bg-white
+                               text-black text-[11px] cursor-pointer
+                               hover:bg-gray-300 transition">
+                    Send
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER LINKS -->
+        <div class="flex flex-col sm:flex-row gap-10 md:gap-[60px]">
+
+            <div>
+                <h4 class="text-[11px] font-medium mb-[10px]">About us</h4>
+                <a href="#" class="block text-[11px] text-gray-400 mb-[6px]">Story</a>
+                <a href="#" class="block text-[11px] text-gray-400 mb-[6px]">Team</a>
+                <a href="#" class="block text-[11px] text-gray-400 mb-[6px]">Careers</a>
+            </div>
+
+            <div>
+                <h4 class="text-[11px] font-medium mb-[10px]">Help</h4>
+                <a href="#" class="block text-[11px] text-gray-400 mb-[6px]">Shipping</a>
+                <a href="#" class="block text-[11px] text-gray-400 mb-[6px]">Returns</a>
+                <a href="#" class="block text-[11px] text-gray-400 mb-[6px]">Contact</a>
+            </div>
+
+            <div>
+                <h4 class="text-[11px] font-medium mb-[10px]">Follow</h4>
+                <a href="#" class="block text-[11px] text-gray-400 mb-[6px]">Instagram</a>
+                <a href="#" class="block text-[11px] text-gray-400 mb-[6px]">Pinterest</a>
+                <a href="#" class="block text-[11px] text-gray-400 mb-[6px]">Twitter</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
